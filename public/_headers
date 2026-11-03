@@ -1,0 +1,12 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; connect-src 'self'; form-action 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'
+
+/personal-appearance-questionaire/
+  ! Content-Security-Policy
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://*.jotform.com https://*.jotfor.ms; frame-src https://*.jotform.com https://*.jotfor.ms; img-src 'self' data: https://*.jotform.com https://*.jotfor.ms; style-src 'self' 'unsafe-inline' https://*.jotform.com https://*.jotfor.ms; font-src 'self' data: https://*.jotform.com https://*.jotfor.ms; connect-src 'self' https://*.jotform.com https://*.jotfor.ms; form-action 'self' https://*.jotform.com; base-uri 'self'; object-src 'none'; frame-ancestors 'none'
+
+/assets/*
+  Cache-Control: public, max-age=604800
